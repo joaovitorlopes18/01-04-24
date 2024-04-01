@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Validador</title>
+</head>
+<body>
+    <script src="./ifelse.js"></script>
+
+    <input type="text" id="txtVar1" />
+    <input type="text" id="txtVar2" />
+    <button onclick="validar()"> Validar </button>
+
+<script>
+function validar() {
+    var txtVar1 = document.getElementById("txtVar1").value;
+    var txtVar2 = document.getElementById("txtVar2").value;
+
+    if (txtVar1 === txtVar2) {
+        console.log("As variáveis têm o mesmo valor.");
+    } else {
+        console.log("As variáveis têm valores diferentes.");
+    }
+}
+</script>
+
+    
+</body>
+</html>
